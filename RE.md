@@ -1,2 +1,0 @@
-# python-benri
-pythonはべんりだ
