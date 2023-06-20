@@ -6,7 +6,8 @@ import subprocess
 
 directories = [name for name in os.listdir(download_folder) if os.path.isdir(os.path.join(download_folder, name))]
 
-# 
+directories.sort()
+
 for directory in directories:
     index_html_path = os.path.join(download_folder, directory, "index.html")
     if os.path.isfile(index_html_path):
